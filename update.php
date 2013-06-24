@@ -52,7 +52,7 @@
     
     <form action="<?php echo htmlentities($_SERVER['PHP_SELF']).'?id='.$_GET['id']; ?>" method="POST" style="width: 500px;">
         <fieldset>
-            <legend>Tambah Data</legend>
+            <legend>Update Data</legend>
             <div>
                 <label for="nama">Nama:</label>
                 <input type="text" name="nama" id="nama" value="<?php echo htmlspecialchars($nama); ?>" class="txt" required />
@@ -75,7 +75,7 @@
             </div>
         </fieldset>
         <div>
-            <input type="submit" value="Simpan!" class="button darkblue" id="submit" name="Submit" />
+            <input type="submit" value="Update!" class="button darkblue" id="submit" name="Submit" />
         </div>
     </form>
     
